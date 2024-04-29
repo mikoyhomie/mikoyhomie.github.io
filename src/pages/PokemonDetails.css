@@ -1,0 +1,62 @@
+.pokemon-details-background {
+  background-image: url("pokemongBGR.jpg");
+}
+
+.pokemon-details-container {
+  margin-left: 30%;
+  border: 1px black solid;
+  border-radius: 11%;
+  width: 600px;
+  background-color: white;
+  padding-bottom: 10%;
+  margin-top: 20px;
+}
+
+.pokemon-image-container {
+  margin-right: 50px;
+}
+
+.pokemon-image {
+  width: 250px;
+}
+
+.pokemon-name {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pokemon-info {
+  display: flex;
+  width: 100%;
+}
+
+.pokemon-stats-container {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.pokemon-stats-headers {
+  border: 1px black solid;
+  border-radius: 5%;
+  background-color: lightgray;
+}
+
+.pokemon-abilities-list,
+.pokemon-stats-list {
+  list-style: none;
+  text-align: left;
+}
+
+.pokemon-abilities-list li,
+.pokemon-stats-list li {
+  margin-bottom: 5px;
+}
+
+.pokemon-height,
+.pokemon-weight {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}

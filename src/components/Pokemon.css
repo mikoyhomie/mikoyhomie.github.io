@@ -1,0 +1,67 @@
+
+.pokeBox {
+    display: inline-block;
+    flex-basis: calc(25% - 20px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: rgb(145, 122, 122);
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    color: rgb(57, 57, 57);
+  }
+  
+  .pokeBox img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: 100%;
+    max-width: 80%;
+  }
+  
+  .pokeBox .id {
+    position: absolute;
+    left: 5px;
+    top: 20px;
+  }
+  
+  .pokeBox .name {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .pokeBox {
+      flex-basis: 100%;
+      height: auto;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .pokeBox img {
+      position: relative;
+      display: block;
+      margin: auto;
+      height: 100%;
+      max-width: 80%;
+    }
+  
+    .pokeBox .id {
+      position: relative;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  
+    .pokeBox .name {
+      position: relative;
+      text-align: center;
+    }
+  }
+  

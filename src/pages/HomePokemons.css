@@ -1,0 +1,29 @@
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+  }
+  
+  .button-container button {
+    margin-left: 10px;
+    background-color: #87cefa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-container button:hover {
+    background-color: #6ca6cd;
+  }
+  
+  .disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  

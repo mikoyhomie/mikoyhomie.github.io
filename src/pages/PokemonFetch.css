@@ -1,0 +1,12 @@
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+    margin: 0 30px;
+  }
+  
